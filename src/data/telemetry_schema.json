@@ -1,0 +1,139 @@
+{
+  "rocket": {
+    "description": "Roket telemetri verileri",
+    "fields": {
+      "sayac": {
+        "type": "integer",
+        "description": "Veri paketi sayacı",
+        "unit": "count"
+      },
+      "MSIrtifa": {
+        "type": "float",
+        "description": "Barometrik yükseklik",
+        "unit": "meters"
+      },
+      "RoketGPSIrtifa": {
+        "type": "float",
+        "description": "GPS yüksekliği",
+        "unit": "meters"
+      },
+      "Enlem": {
+        "type": "float",
+        "description": "GPS enlem koordinatı",
+        "unit": "degrees"
+      },
+      "Boylam": {
+        "type": "float",
+        "description": "GPS boylam koordinatı",
+        "unit": "degrees"
+      },
+      "Hiz": {
+        "type": "float",
+        "description": "Roket hızı",
+        "unit": "m/s"
+      },
+      "Gx": {
+        "type": "float",
+        "description": "Gyro X ekseni",
+        "unit": "degrees/s"
+      },
+      "Gy": {
+        "type": "float",
+        "description": "Gyro Y ekseni",
+        "unit": "degrees/s"
+      },
+      "Gz": {
+        "type": "float",
+        "description": "Gyro Z ekseni",
+        "unit": "degrees/s"
+      },
+      "Ax": {
+        "type": "float",
+        "description": "İvme X ekseni",
+        "unit": "m/s²"
+      },
+      "Ay": {
+        "type": "float",
+        "description": "İvme Y ekseni",
+        "unit": "m/s²"
+      },
+      "Az": {
+        "type": "float",
+        "description": "İvme Z ekseni",
+        "unit": "m/s²"
+      },
+      "aci": {
+        "type": "float",
+        "description": "Roket açısı",
+        "unit": "degrees"
+      },
+      "durum": {
+        "type": "integer",
+        "description": "Roket durumu",
+        "values": {
+          "0": "Hazır",
+          "1": "Fırlatma Bekliyor",
+          "2": "Yükseliyor",
+          "3": "Alçalıyor",
+          "4": "Paraşüt Açık",
+          "5": "Yere İndi"
+        }
+      }
+    }
+  },
+  "payload": {
+    "description": "Görev yükü telemetri verileri",
+    "fields": {
+      "GorevYukuIrtifa": {
+        "type": "float",
+        "description": "Görev yükü yüksekliği",
+        "unit": "meters"
+      },
+      "GorevYukuEnlem": {
+        "type": "float",
+        "description": "Görev yükü enlem koordinatı",
+        "unit": "degrees"
+      },
+      "GorevYukuBoylam": {
+        "type": "float",
+        "description": "Görev yükü boylam koordinatı",
+        "unit": "degrees"
+      },
+      "GorevYukuBasinc": {
+        "type": "float",
+        "description": "Görev yükü basınç sensörü",
+        "unit": "hPa"
+      },
+      "GorevYukuSicaklik": {
+        "type": "float",
+        "description": "Görev yükü sıcaklık sensörü",
+        "unit": "°C"
+      },
+      "GorevYukuNem": {
+        "type": "float",
+        "description": "Görev yükü nem sensörü",
+        "unit": "%"
+      }
+    }
+  },
+  "bmp280": {
+    "description": "BMP280 sensör verileri",
+    "fields": {
+      "sicaklik": {
+        "type": "float",
+        "description": "Sıcaklık",
+        "unit": "°C"
+      },
+      "basinc": {
+        "type": "float",
+        "description": "Basınç",
+        "unit": "hPa"
+      },
+      "yukseklik": {
+        "type": "float",
+        "description": "Yükseklik",
+        "unit": "meters"
+      }
+    }
+  }
+}

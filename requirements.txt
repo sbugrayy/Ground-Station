@@ -1,0 +1,33 @@
+# Yer İstasyonu v2.0 - Gereksinimler
+# Python 3.7+ gereklidir
+
+# GUI Framework
+PyQt5==5.15.9
+
+# Seri Port İletişimi
+pyserial==3.5
+
+# 3D Görselleştirme
+PyOpenGL==3.1.7
+PyOpenGL-accelerate==3.1.7
+
+# Veri İşleme (opsiyonel)
+numpy==1.24.3
+pandas==2.0.3
+
+# JSON İşleme (Python 3.7+ ile birlikte gelir)
+# json - built-in
+
+# Matematiksel İşlemler (Python 3.7+ ile birlikte gelir)
+# math - built-in
+# struct - built-in
+
+# Sistem İşlemleri (Python 3.7+ ile birlikte gelir)
+# sys - built-in
+# os - built-in
+# time - built-in
+
+# Geliştirme Araçları (opsiyonel)
+# pytest==7.4.0
+# black==23.7.0
+# flake8==6.0.0

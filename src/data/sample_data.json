@@ -1,0 +1,31 @@
+{
+  "rocket": {
+    "sayac": 1,
+    "MSIrtifa": 0.0,
+    "RoketGPSIrtifa": 0.0,
+    "Enlem": 39.5419883728027,
+    "Boylam": 28.0079479217529,
+    "Hiz": 0.0,
+    "Gx": 0.0,
+    "Gy": 0.0,
+    "Gz": 0.0,
+    "Ax": 0.0,
+    "Ay": 0.0,
+    "Az": 9.81,
+    "aci": 0.0,
+    "durum": 0
+  },
+  "payload": {
+    "GorevYukuIrtifa": 0.0,
+    "GorevYukuEnlem": 39.5419883728027,
+    "GorevYukuBoylam": 28.0079479217529,
+    "GorevYukuBasinc": 1013.25,
+    "GorevYukuSicaklik": 25.0,
+    "GorevYukuNem": 45.0
+  },
+  "bmp280": {
+    "sicaklik": 25.6,
+    "basinc": 1013.25,
+    "yukseklik": 100.5
+  }
+}

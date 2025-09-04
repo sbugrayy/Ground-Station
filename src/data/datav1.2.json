@@ -1,0 +1,26 @@
+{
+    "rocket": {
+        "sayac": 0,
+        "MSIrtifa": 0.0,
+        "RoketGPSIrtifa": 0.0,
+        "Enlem": 0.0,
+        "Boylam": 0.0,
+        "Hiz": 0.0,
+        "Gx": 0.0,
+        "Gy": 0.0,
+        "Gz": 0.0,
+        "Ax": 0.0,
+        "Ay": 0.0,
+        "Az": 0.0,
+        "aci": 0.0,
+        "durum": 0
+    },
+    "payload": {
+        "GorevYukuIrtifa": 0.0,
+        "GorevYukuEnlem": 0.0,
+        "GorevYukuBoylam": 0.0,
+        "GorevYukuBasinc": 0,
+        "GorevYukuSicaklik": 0,
+        "GorevYukuNem": 0
+    }
+}
