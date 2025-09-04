@@ -5,7 +5,7 @@ Yer istasyonu uygulamasının ana arayüzü.
 
 import sys
 from PyQt5.QtWidgets import (QApplication, QMainWindow, QWidget, QVBoxLayout, 
-                            QHBoxLayout, QTabWidget, QFrame, QStyleFactory)
+                            QHBoxLayout, QTabWidget, QFrame, QStyleFactory, QLabel)
 from PyQt5.QtCore import QTimer, Qt
 from PyQt5.QtGui import QFont
 
